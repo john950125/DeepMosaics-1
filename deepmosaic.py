@@ -2,7 +2,7 @@ import sys
 import os
 import traceback
 
-sys.path.append('venv')
+sys.path.append('../DeepMosaics/venv')
 
 try:
     from cores import Options, add, clean, style
